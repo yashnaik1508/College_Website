@@ -1,0 +1,76 @@
+/* General Styling for Placements Section */
+.placements {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for Placement Section Boxes */
+.TP {
+    background: #ffffff;
+    border: 2px solid #ff4500;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 25px;
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Hover effect for Placement Section Boxes */
+.TP:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    border-color: #ff6347;
+    background: linear-gradient(to right, #ff7f50, #ff4500);
+}
+
+/* Text Styling Inside Boxes */
+.TP a {
+    color: #333;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for text */
+.TP:hover a {
+    color: white;
+}
+
+/* Adding an icon-like effect before headings */
+.TP::before {
+    content: '✔';
+    font-size: 2rem;
+    color: #ff4500;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    opacity: 0.5;
+}
+
+/* Hover effect for the icon */
+.TP:hover::before {
+    color: #fff;
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .TP {
+        width: 100%;
+    }
+
+    .TP a {
+        font-size: 1.4em;
+    }
+}

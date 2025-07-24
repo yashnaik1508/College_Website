@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Keystone School Of Engineering</title>
+  <link rel="stylesheet" href="home.css"> <!-- Reuse the same CSS file -->
+  <link rel="stylesheet" href="about.css">
+  <style>
+    /* Dropdown Menu Styling */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Keystone School Of Engineering</h1>
+    <h3>Near Handewadi Chowk, Urali Devachi, Shewalewadi, Pune – 412308</h3>
+    <nav>
+      <ul class="navbar">
+        <li><a href="Home.html">Home</a></li>
+        <li class="dropdown">
+          <a href="about.html" class="dropbtn">About Us</a>
+          <div class="dropdown-content">
+            <a href="#overview">College Overview</a>
+            <a href="#vision">Vision & Mission</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#achievements">Achievements</a>
+          </div>
+        </li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="student-life.html">Student Life</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="research-and-development.html">Research and Development</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Us Section -->
+<section id="about-us">
+  <h2>About Us</h2>
+
+  <!-- College Overview -->
+  <div class="overview" id="overview">
+    <h3>College Overview</h3>
+    <p>Keystone School of Engineering, established in 2005, 
+      has emerged as one of the leading institutions in the region for quality technical education. 
+      Located in the heart of Pune, the campus is equipped with modern facilities and offers both 
+      undergraduate and postgraduate programs in various engineering disciplines. The college strives 
+      to provide a world-class education and has built a strong reputation for academic excellence. With
+      dedicated faculty, well-equipped laboratories, and a focus on research and development, Keystone 
+      aims to nurture skilled professionals ready to drive innovation and contribute meaningfully to society.</p>
+    <img src="Image/Campus.jpeg" alt="College Campus">
+
+  </div>
+
+  <!-- Vision & Mission -->
+  <div class="vision-mission" id="vision">
+    <h3>Vision & Mission</h3>
+    <p><strong>Vision:</strong>Keystone School of Engineering envisions becoming a leading institution in the 
+      realm of engineering education. The goal is to offer transformative learning experiences that inspire 
+      students to address global challenges. The college aims to cultivate the next generation of engineers 
+      who will lead the way in driving societal progress through innovative solutions and technical expertise.
+      By focusing on forward-thinking educational practices, Keystone aims to empower students to meet the 
+      evolving demands of the global workforce.</p>
+    <p><strong>Mission:</strong> Keystone School of Engineering’s mission is to provide an education that 
+      balances theoretical knowledge with practical, hands-on learning. The institution is dedicated to 
+      fostering creativity, critical thinking, and problem-solving abilities in its students. Keystone 
+      emphasizes the development of skills necessary to succeed in a fast-paced, technology-driven world.
+       The college also strives to maintain an inclusive and supportive learning environment that encourages 
+       innovation, entrepreneurship, and lifelong learning, preparing students for successful careers in 
+       engineering and related fields.</p>
+    <img src="Image/vision.jpeg" alt="Vision and Mission">
+
+  </div>
+
+  <!-- Leadership Section -->
+  <div class="leadership" id="leadership">
+    <h3>Leadership</h3>
+    <div class="principal-message">
+      <h4>Principal's Message</h4>
+      <p>Dr. Sandeep Kadam, the Principal of Keystone School of Engineering, expresses his belief in 
+        the transformative power of education. He states, “At Keystone, we are committed to nurturing the 
+        next generation of engineers, innovators, and thinkers. Our educational programs are designed to 
+        equip students with both academic knowledge and practical skills. We encourage our students to think 
+        critically, explore new ideas, and embrace challenges as opportunities for growth. Our mission is to 
+        help each student achieve their full potential and prepare them for success in their careers and in life.”</p>
+        <img src="Image/principal1.jpg" alt="Leadership Team">
+
+    </div>
+    <div class="management-team">
+      <h4>Management Team</h4>
+      <p>The management team at Keystone School of Engineering plays a crucial role in steering the 
+        institution towards excellence. Under the guidance of Prof. Y.R. Soman, Director, the management 
+        team is dedicated to maintaining high academic standards, implementing innovative programs, and 
+        ensuring the overall development of students. The team works collaboratively to enhance the learning 
+        experience, foster a culture of research and innovation, and ensure that the college remains at the 
+        forefront of engineering education. Their combined efforts create an environment where students are 
+        motivated to excel academically and professionally.</p>
+        <img src="Image/leadership.jpg" alt="Leadership Team">
+    </div>
+  </div>
+
+  <!-- Achievements and Milestones -->
+  <div class="achievements" id="achievements">
+    <h3>Achievements and Milestones</h3>
+    <ul>
+      <li>Accredited by the National Board of Accreditation (NBA)</li>
+      <li>Ranked among the top engineering colleges in the region</li>
+      <li>Successfully placed over 80% of our graduates in reputed companies</li>
+      <li>Organized several international conferences and workshops</li>
+      <li>An 'A' grade from NAAC reflects the institution's academic excellence.</li>
+    </ul>
+    <img src="Image/Ach.jpg" alt="Achievements">
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Social Media Icons -->
+    <div class="social-media">
+      <a href="https://www.facebook.com/profile.php?id=100070455271499" target="_blank">
+        <img src="img/face.png" alt="Facebook" class="social-icon">
+      </a>
+      <a href="https://www.instagram.com/official_keystoneschoolofengg/" target="_blank">
+        <img src="img/inst.png" alt="Instagram" class="social-icon">
+      </a>
+      <a href="https://www.linkedin.com/school/shalaka-foundations-keystone-school-of-engineering-pune/posts/?feedView=all" target="_blank">
+        <img src="img/link.png" alt="LinkedIn" class="social-icon">
+      </a>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> | 
+      <a href="terms.html">Terms and Conditions</a>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2025 Keystone School Of Engineering. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

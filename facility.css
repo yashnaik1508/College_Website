@@ -1,0 +1,65 @@
+/* General Styles for the Facilities Section */
+#facilities {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Default to single column on small screens */
+    gap: 50px; /* Increased space between rows */
+  }
+  
+  .facility-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure equal section height */
+    cursor: pointer; /* Indicate clickable area */
+  }
+  
+  .facility-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .facility-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px; /* To add space between text and image */
+  }
+  
+  .facility-section img {
+    width: 100%;
+    height: 200px; /* Set a fixed height to keep images the same size */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .facility-section:hover {
+    transform: translateY(-5px); /* Slight hover effect to lift the section */
+  }
+  
+  .facility-section:active {
+    transform: scale(1.1); /* Enlarge section on click */
+  }
+  
+  /* For medium and larger screens, arrange sections into two rows with three columns */
+  @media screen and (min-width: 768px) {
+    #facilities {
+      grid-template-columns: repeat(3, 1fr); /* Three columns */
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    #facilities {
+      grid-template-columns: repeat(3, 1fr); /* Ensure three columns on larger screens */
+    }
+  }
+  

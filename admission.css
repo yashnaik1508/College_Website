@@ -1,0 +1,130 @@
+<!---ADMISSION--->----------------------------------------------------------------------------------------
+/* General Styling for Admission Section */
+#admission {
+  padding: 40px;
+  background-color: rgb(250, 250, 250); /* Light gray background */
+  text-align: left; /* Left align all text */
+}
+
+#admission h2 {
+  font-size: 3.5em; /* Increased font size */
+  color: rgb(0, 51, 102); /* Dark blue color */
+  margin-bottom: 30px;
+}
+
+/* Styling for Admission Overview */
+.admission-overview {
+  background-color: rgb(224, 247, 250); /* Light cyan background */
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admission-overview h3 {
+  font-size: 2em; /* Increased font size */
+  color: rgb(0, 105, 92); /* Dark green color */
+  margin-bottom: 20px;
+}
+
+.admission-overview p {
+  font-size: 1.5em; /* Increased font size */
+  color: rgb(51, 51, 51);
+}
+
+/* Styling for Admission Process */
+.admission-process {
+  background-color: rgb(255, 249, 196); /* Light yellow background */
+  padding: 25px;
+  margin-bottom: 30px;
+  border-left: 5px solid rgb(251, 192, 45); /* Yellow left border */
+  font-style: italic;
+}
+
+.admission-process h3 {
+  font-size: 2em; /* Increased font size */
+  color: rgb(251, 192, 45); /* Yellow color */
+  margin-bottom: 20px;
+}
+
+.admission-process p {
+  font-size: 1.5em; /* Increased font size */
+  color: rgb(51, 51, 51);
+}
+
+.admission-process strong {
+  color: rgb(245, 124, 0); /* Orange color for bold text */
+}
+
+/* Styling for Eligibility Criteria */
+.eligibility-criteria {
+  background-color: rgb(241, 248, 233); /* Light green background */
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(76, 175, 80); /* Green border */
+}
+
+.eligibility-criteria h3 {
+  font-size: 2em; /* Increased font size */
+  color: rgb(56, 142, 60); /* Dark green color */
+  margin-bottom: 20px;
+}
+
+.eligibility-criteria ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.eligibility-criteria ul li {
+  font-size: 1.5em; /* Increased font size */
+  margin-bottom: 12px;
+  color: rgb(51, 51, 51);
+}
+
+/* Styling for Documents Required */
+.documents-required {
+  background-color: rgb(255, 243, 224); /* Light orange background */
+  padding: 25px;
+  border: 2px dashed rgb(255, 87, 34); /* Orange dashed border */
+}
+
+.documents-required h3 {
+  font-size: 2em; /* Increased font size */
+  color: rgb(211, 47, 47); /* Red color */
+  margin-bottom: 20px;
+}
+
+.documents-required ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.documents-required ul li {
+  font-size: 1.5em; /* Increased font size */
+  margin-bottom: 12px;
+  color: rgb(51, 51, 51);
+}
+
+/* Styling for Contact Information */
+.contact-info {
+  background-color: rgb(255, 249, 196); /* Light yellow background */
+  padding: 25px;
+  border-left: 5px solid rgb(251, 192, 45); /* Yellow left border */
+}
+
+.contact-info h3 {
+  font-size: 2em; /* Increased font size */
+  color: rgb(251, 192, 45); /* Yellow color */
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1.5em; /* Increased font size */
+  color: rgb(51, 51, 51);
+}
+
+.contact-info strong {
+  color: rgb(245, 124, 0); /* Orange color for bold text */
+}
+

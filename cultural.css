@@ -1,0 +1,89 @@
+/* Styling for Cultural Club Section */
+#cultural-club {
+  background: linear-gradient(to right, #f8f9fa, #e3e7ea);
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#cultural-club:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#cultural-club img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid #34495e;
+}
+
+/* Heading Styling */
+#cultural-club h2 {
+  font-size: 40px;
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+#cultural-club p {
+  font-size: 20px;
+  color: #444;
+  line-height: 2;
+  text-align: justify;
+  padding: 0 15px;
+  border-left: 5px solid #3498db;
+  background: #f4f4f4;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-action Button */
+#cultural-club .cta-button {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  background: #3498db;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#cultural-club .cta-button:hover {
+  background: #2c3e50;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #cultural-club h2 {
+      font-size: 32px;
+  }
+
+  #cultural-club p {
+      font-size: 18px;
+  }
+
+  #cultural-club .cta-button {
+      font-size: 20px;
+      padding: 12px 25px;
+  }
+}

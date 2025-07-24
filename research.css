@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+h1, h3 {
+    margin: 0;
+}
+
+/* Placement Section */
+.placement-team {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff4500;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Individual Team Member */
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.team-member:last-child {
+    border-bottom: none;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ff4500;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}

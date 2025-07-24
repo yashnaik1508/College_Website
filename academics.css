@@ -1,0 +1,224 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #35467a;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin: 0;
+  font-weight: bold;
+}
+
+header h3 {
+  font-size: 1.4em;
+  margin-top: 10px;
+}
+
+/* Section Styling */
+#academics {
+  padding: 40px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Academic Calendar Section */
+.academic-calendar {
+  background-color: #88dceb; /* Yellow background */
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.academic-calendar h3 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.academic-calendar p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.academic-calendar button {
+  background-color: #065f14;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.academic-calendar button:hover {
+  background-color: #0033aa;
+}
+
+/* Departments Section */
+.departments {
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.departments h3 {
+  font-size: 2.2em;
+  color: #007bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.departments ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.departments li {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.departments a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.departments a:hover {
+  color: #0056b3;
+}
+
+/* Department Details Section */
+.department-details {
+  background-color: #e6f7ff; /* Very light blue */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.department-details h4 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+.department-details ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.department-details li {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Faculty List Section */
+.faculty-list {
+  background-color: #ffebcd; /* Blanched almond background */
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.faculty-list h3 {
+  font-size: 2.2em;
+  color: #006400;
+  margin-bottom: 20px;
+}
+
+.faculty-list p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.faculty-list button {
+  background-color: #006400;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.faculty-list button:hover {
+  background-color: #004d00;
+}
+
+/* Curriculum & Syllabus Section */
+.curriculum-syllabus {
+  background-color: #fafad2; /* Light golden background */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.curriculum-syllabus h3 {
+  font-size: 2em;
+  color: #800000;
+  margin-bottom: 20px;
+}
+
+.curriculum-syllabus button {
+  background-color: #800000;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.curriculum-syllabus button a {
+  color: white;
+  text-decoration: none;
+}
+
+.curriculum-syllabus button:hover {
+  background-color: #660000;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}

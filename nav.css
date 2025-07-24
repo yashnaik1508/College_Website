@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgb(0, 51, 102);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  #carousel {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+  
+  .carousel-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .image-caption {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: rgb(0, 51, 102);
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  h2 {
+    color: rgb(0, 51, 102);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 51, 102);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: rgb(0, 51, 102);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  /* Common Styling for Notice Board, Quick Links, and Upcoming Events */
+  section {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Restrict width for neat layout */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Specific Styling for Notice Board */
+  #notice-board {
+    background-color: rgb(255, 223, 186); /* Light peach */
+  }
+  
+  #notice-board h2 {
+    font-size: 1.8em;
+    color: rgb(102, 51, 0); /* Dark brown */
+  }
+  
+  #notice-board ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: rgb(51, 51, 51); /* Neutral text color */
+  }
+  
+  /* Styling for Quick Links */
+  #quick-links {
+    background-color: rgb(186, 235, 255); /* Light blue */
+  }
+  
+  #quick-links h2 {
+    font-size: 1.8em;
+    color: rgb(0, 51, 102); /* Dark blue */
+  }
+  
+  #quick-links ul {
+    display: flex; /* Arrange links side by side */
+    justify-content: center;
+    gap: 30px; /* Space between links */
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+  }
+  
+  #quick-links ul li {
+    font-size: 1.2em;
+  }
+  
+  #quick-links a {
+    text-decoration: none;
+    color: rgb(0, 51, 102); /* Dark blue */
+    font-weight: bold;
+  }
+  
+  #quick-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for Upcoming Events */
+  #upcoming-events {
+    background-color: rgb(186, 255, 201); /* Light green */
+  }
+  
+  #upcoming-events h2 {
+    font-size: 1.8em;
+    color: rgb(0, 102, 51); /* Dark green */
+  }
+  
+  #upcoming-events ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: rgb(51, 51, 51); /* Neutral text color */
+  }
+  r: rgb(51, 51, 51); /* Neutral text color for readability */
+  
+  .carousel-image {
+    width: calc(33.33% - 20px); /* Adjust width to include spacing */
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px; /* More space between images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .carousel-image:hover {
+    transform: scale(1.1); /* Increase image size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  }
+  
+  /* Navigation Bar Styling */
+  nav {
+    background-color: rgba(217, 217, 218, 0.925); /* Same as header background */
+    padding: 10px 0; /* Space around the navbar */
+  }
+  
+  .navbar {
+    list-style-type: none; /* Remove default list styling */
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center the navigation bar */
+    gap: 20px; /* Add space between items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline; /* Inline items for horizontal alignment */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text for visibility */
+    font-size: 1em; /* Standard font size */
+    font-weight: bold;
+    padding: 5px 10px; /* Add spacing around text */
+    border-radius: 5px; /* Rounded corners for hover effect */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(255, 223, 186); /* Light peach hover effect */
+    color: rgb(0, 51, 102); /* Dark text for hover contrast */
+  }
+  
+  .welcome-header {
+    background-color: rgb(12, 10, 10); /* Light pink background */
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+    border: 2px solid rgb(255, 94, 77); /* Darker pink border */
+  }
+  
+  .welcome-message {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(255, 69, 0); /* Initial color */
+    display: inline-block;
+    animation: blinkAnimation 1s step-start infinite; /* Blinking effect */
+  }
+  
+  /* Keyframe animation for blinking effect with 2 colors */
+  @keyframes blinkAnimation {
+    0% {
+      color: rgb(255, 69, 0); /* Orange color */
+    }
+    50% {
+      color: rgb(17, 223, 79); /* Blue color */
+    }
+    100% {
+      color: rgb(255, 69, 0); /* Orange color */
+    }
+  }
+  
+  

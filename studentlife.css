@@ -1,0 +1,621 @@
+/* General Styles for Student Life Section */
+#student-life {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #student-life h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .section:hover {
+    transform: translateY(-5px);
+  }
+  
+  .section h3 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    font-size: 18px;
+    color: #555;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .section ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Responsive Design */
+  @media screen and (min-width: 768px) {
+    #student-life {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    #student-life {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  ---------------------------------------------------------
+
+  /* Styling for Cultural Club Section */
+#cultural-club {
+  background: linear-gradient(to right, #f8f9fa, #e3e7ea);
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#cultural-club:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#cultural-club img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid #34495e;
+}
+
+/* Heading Styling */
+#cultural-club h2 {
+  font-size: 40px;
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+#cultural-club p {
+  font-size: 20px;
+  color: #444;
+  line-height: 2;
+  text-align: justify;
+  padding: 0 15px;
+  border-left: 5px solid #3498db;
+  background: #f4f4f4;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-action Button */
+#cultural-club .cta-button {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  background: #3498db;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#cultural-club .cta-button:hover {
+  background: #2c3e50;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #cultural-club h2 {
+      font-size: 32px;
+  }
+
+  #cultural-club p {
+      font-size: 18px;
+  }
+
+  #cultural-club .cta-button {
+      font-size: 20px;
+      padding: 12px 25px;
+  }
+}
+-----------------------------------------------------------
+
+
+/* Styling for Technical Club Section */
+#technical-club {
+  background: linear-gradient(to right, #f4f4f4, #dfe6e9);
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#technical-club:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#technical-club img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid #2c3e50;
+}
+
+/* Heading Styling */
+#technical-club h2 {
+  font-size: 40px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+#technical-club p {
+  font-size: 20px;
+  color: #333;
+  line-height: 2;
+  text-align: justify;
+  padding: 0 15px;
+  border-left: 5px solid #2980b9;
+  background: #ecf0f1;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-action Button */
+#technical-club .cta-button {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  background: #2980b9;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#technical-club .cta-button:hover {
+  background: #1b2838;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #technical-club h2 {
+      font-size: 32px;
+  }
+
+  #technical-club p {
+      font-size: 18px;
+  }
+
+  #technical-club .cta-button {
+      font-size: 20px;
+      padding: 12px 25px;
+  }
+}
+------------------------------------------------------------------
+
+/* Styling for Sports Club Section */
+#sports-club {
+  background: linear-gradient(to right, #ffeb3b, #ff9800);
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#sports-club:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#sports-club img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid #f57c00;
+}
+
+/* Heading Styling */
+#sports-club h2 {
+  font-size: 40px;
+  color: #f57c00;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph Styling */
+#sports-club p {
+  font-size: 20px;
+  color: #333;
+  line-height: 2;
+  text-align: justify;
+  padding: 0 15px;
+  border-left: 5px solid #f57c00;
+  background: #fff3e0;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-action Button */
+#sports-club .cta-button {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  background: #f57c00;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#sports-club .cta-button:hover {
+  background: #e65100;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #sports-club h2 {
+      font-size: 32px;
+  }
+
+  #sports-club p {
+      font-size: 18px;
+  }
+
+  #sports-club .cta-button {
+      font-size: 20px;
+      padding: 12px 25px;
+  }
+}
+-------------------------------------------------------------
+
+/* Styling for Annual Day Section */
+#annual-day {
+  background: linear-gradient(to right, #8e44ad, #9b59b6);
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#annual-day:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#annual-day img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid #8e44ad;
+}
+
+/* Heading Styling */
+#annual-day h2 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraph Styling */
+#annual-day p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 2;
+  text-align: justify;
+  padding: 0 15px;
+  border-left: 5px solid #9b59b6;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-action Button */
+#annual-day .cta-button {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  background: #9b59b6;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#annual-day .cta-button:hover {
+  background: #8e44ad;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #annual-day h2 {
+      font-size: 32px;
+  }
+
+  #annual-day p {
+      font-size: 18px;
+  }
+
+  #annual-day .cta-button {
+      font-size: 20px;
+      padding: 12px 25px;
+  }
+}
+-----------------------------------------------------------
+
+/* Styling for Tech Fest Section */
+#tech-fest {
+  background: linear-gradient(to right, #8e44ad, #9b59b6); /* Purple gradient */
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#tech-fest:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#tech-fest img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid #8e44ad; /* Matching border color */
+}
+
+/* Heading Styling */
+#tech-fest h2 {
+  font-size: 40px;
+  color: #130252;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraph Styling */
+#tech-fest p {
+  font-size: 20px;
+  color: #130707;
+  line-height: 2;
+  text-align: justify;
+  padding: 0 15px;
+  border-left: 5px solid #9b59b6; /* Matching border color */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Call-to-action Button */
+#tech-fest .cta-button {
+  display: inline-block;
+  font-size: 22px;
+  color: #110505;
+  background: #9b59b6; /* Matching button background color */
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#tech-fest .cta-button:hover {
+  background: #8e44ad; /* Matching hover effect */
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #tech-fest h2 {
+    font-size: 32px;
+  }
+
+  #tech-fest p {
+    font-size: 18px;
+  }
+
+  #tech-fest .cta-button {
+    font-size: 20px;
+    padding: 12px 25px;
+  }
+}
+
+}
+
+
+---------------------------------------------------------------
+
+/* Styling for Workshops & Seminars Section */
+#workshops-seminars {
+  background: linear-gradient(to right, #8e44ad, #9b59b6); /* Purple gradient */
+  padding: 50px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 30px auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#workshops-seminars:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#workshops-seminars img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid #8e44ad; /* Matching border color */
+}
+
+/* Heading Styling */
+#workshops-seminars h2 {
+  font-size: 40px;
+  color: #0c0000;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraph Styling */
+#workshops-seminars p {
+  font-size: 20px;
+  color: #000000;
+  line-height: 2;
+  text-align: justify;
+  padding: 0 15px;
+  border-left: 5px solid #9b59b6; /* Matching border color */
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(26, 4, 87, 0.1);
+}
+
+/* Call-to-action Button */
+#workshops-seminars .cta-button {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  background: #9b59b6; /* Matching button background color */
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#workshops-seminars .cta-button:hover {
+  background: #8e44ad; /* Matching hover effect */
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #workshops-seminars h2 {
+    font-size: 32px;
+  }
+
+  #workshops-seminars p {
+    font-size: 18px;
+  }
+
+  #workshops-seminars .cta-button {
+    font-size: 20px;
+    padding: 12px 25px;
+  }
+}

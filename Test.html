@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Navbar with Dropdowns</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(51, 51, 51);
+      padding: 10px 20px;
+    }
+
+    .navbar .logo {
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar li {
+      position: relative;
+    }
+
+    .navbar a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: rgb(68, 68, 68);
+      min-width: 160px;
+      padding: 10px 0;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-menu li {
+      padding: 8px 20px;
+      white-space: nowrap;
+    }
+
+    .dropdown-menu a {
+      color: rgb(255, 255, 255);
+    }
+
+    .dropdown:hover > a {
+      background-color: rgb(68, 68, 68);
+    }
+
+    .nested-dropdown {
+      position: relative;
+    }
+
+    .nested-dropdown:hover .nested-dropdown-menu {
+      display: block;
+    }
+
+    .nested-dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      background-color: rgb(85, 85, 85);
+      padding: 10px 0;
+    }
+
+    .nested-dropdown-menu li {
+      padding: 8px 20px;
+    }
+
+    .nested-dropdown-menu a {
+      color: rgb(255, 255, 255);
+    }
+
+    @media (max-width: 768px) {
+      .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .navbar .logo {
+        margin-bottom: 10px;
+      }
+
+      .navbar a {
+        padding: 8px 16px;
+      }
+
+      .dropdown-menu, .nested-dropdown-menu {
+        min-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">MySite</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="dropdown">
+        <a href="#">Services</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">App Development</a></li>
+          <li class="nested-dropdown">
+            <a href="#">Design</a>
+            <ul class="nested-dropdown-menu">
+              <li><a href="#">UI/UX</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Web Development</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>

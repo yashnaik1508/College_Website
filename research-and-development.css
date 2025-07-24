@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 0;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  /* Research and Development Section Styles */
+  .research {
+    background-color: #f3f4f7;
+    color: #333;
+  }
+  
+  .research h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .research .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .research .content > div {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .research .content h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .research .content p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  /* Funded Projects Section Styles */
+  .funded-projects {
+    background-color: #eaf2f8;
+    color: #333;
+  }
+  
+  .funded-projects h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .funded-projects .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .funded-projects .content > div {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .funded-projects .content h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .funded-projects .content p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  /* Publications and Journals Section Styles */
+  .publications {
+    background-color: #f6f7f9;
+    color: #333;
+  }
+  
+  .publications h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .publications .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .publications .content > div {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .publications .content h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .publications .content p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  /* Research Collaboration Section Styles */
+  .collaboration {
+    background-color: #d5f5e3;
+    color: #333;
+  }
+  
+  .collaboration h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .collaboration .content {
+    display: grid;
+    grid-template-columns: repeat(2,a 1fr);
+    gap: 30px;
+  }
+  
+  .collaboration .content > div {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .collaboration .content h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .collaboration .content p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  /* Image Styling */
+  .research-image,
+  .funded-image,
+  .publications-image,
+  .collaboration-image {
+    width: 100%;  /* Makes the image width 100% of its container */
+    height: 75px; /* Reduced height to 75px (50% smaller) */
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+  }
+  
+  /* Hover effect to scale image */
+  .research-image:hover,
+  .funded-image:hover,
+  .publications-image:hover,
+  .collaboration-image:hover {
+    transform: scale(1.05); /* Slightly scales the image on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow on hover */
+  }
+  
+  /* Responsive Grid Layout for Small Screens */
+  @media (max-width: 768px) {
+    .research .content,
+    .funded-projects .content,
+    .publications .content,
+    .collaboration .content {
+      grid-template-columns: 1fr;
+    }
+  }
+  
